@@ -16,7 +16,7 @@ We decided to use [The Cat API](https://thecatapi.com/) and created a cat pic ge
 
 This was a simple idea meant to give an easy enjoyable experience - and both Neemo and I agreed that we've since used this more than any other app we've built thus far!
 
-The style of the app is cool and modern, against the cat-lover stereotypes. We implemented a neon effect button from [uiverse](https://uiverse.io/) and then extrapolated some of the CSS to give a similar effect to the image border, pulling the site together and making the two elements more visually cohesive.
+The style of the app is cool and modern, perhaps against some of the typical cat-lover stereotypes. We implemented a neon effect button from [uiverse](https://uiverse.io/) and then extrapolated some of the CSS to give a similar effect to the image border, pulling the site together and making the two elements more visually cohesive.
 
 ## The Cat API
 
