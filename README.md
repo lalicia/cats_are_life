@@ -1,23 +1,42 @@
-# React-athon
+# Hackathon
 
-## Task 1 - API Research (20 - 30 mins)
+This week 8 Hackathon focussed on creating a full stack React app.
 
-Choose at least one API to fetch from in a full stack React app. This [list](https://apilist.fun) may help. Remember to read the API's documentation and send test requests from Postman to view the data you get back first before deciding it's suitable to use. You can always use the API list we used in the hackathon earlier in the course as well.
+## The Brief
 
-## Task 2 - Ideate and Plan (30 - 60 mins)
+We had to choose at least one API to fetch from in a full stack React app, using the API's documentation and sending test requests from Postman to decide if it was suitable to use.
 
-- Once you choose an API and test it out, use Disney ideation to come up with an idea of what you want to build. Set a timer for each room (dreamer, realist, and critic).
-- Boil down what your MVP is and what then becomes stretch goals. Break down your idea into its component parts and prioritise your tasks. Use project management software like [Trello](https://trello.com/en) to organize your plan, breaking it down into tasks that you can then treat as tickets for each feature. Base each of these around a [user story](https://www.atlassian.com/agile/project-management/user-stories).
-- Create a component tree with state and behaviour for each component and at least low-fidelity wireframes for your design.
+Once we'd chosen an API, we were tasked with using Disney ideation to come up with an idea of what we wanted to build, determining our MVP - and at the end of the day we had to present our app in a group retrospective, discussing what we'd done well, what we'd learned, and what we might do differently given the chance to start over.
 
-## Task 3 - Build your MVP
+## The Build
 
-Build the simplest version of your app (just enough features to be useable). Make regular commits as you build, and practice branching off for each component and merging that branch in. Use the React hooks and tools we've looked at over the past weeks where appropriate.
+<img src="./screenshot.JPG" alt="generator screenshot" width="750px" />
 
-## Stretch Goals
+We decided to use [The Cat API](https://thecatapi.com/) and created a cat pic generator that would fetch cat pictures on button click.
 
-Once your MVP is functioning and if you have time left, focus on what features you are going to build next - iterate through your planned stretch goals one by one. Again, make use of feature branching and atomic commits (committing often after each change).
+This was a simple idea meant to give an easy enjoyable experience - and both Neemo and I agreed that we've since used this more than any other app we've built thus far!
 
-## Retro
+The style of the app is cool and modern, against the cat-lover stereotypes. We implemented a neon effect button from [uiverse](https://uiverse.io/) and then extrapolated some of the CSS to give a similar effect to the image border, pulling the site together and making the two elements more visually cohesive.
 
-You'll be presenting your apps to each other, and each team member should be prepared to present about their app so an end of day wrap-up is a good idea. This is a good time to practice an [agile retrospective](https://www.atlassian.com/team-playbook/plays/retrospective) - leave time before presentations to discuss what you did well today, what you learned, what you might do differently next time, and actions you can take forward into your project next week.
+## The Cat API
+
+- [The Cat API](https://thecatapi.com/)
+
+```js
+// fetch a random cat picture
+fetch("https://api.thecatapi.com/v1/images/search");
+```
+
+## Tech
+
+This app uses:
+
+- React
+- HTML
+- JavaScript/JSX
+- CSS
+
+## Contributors
+
+- [@lalicia](https://www.github.com/lalicia)
+- [@NeemoDab](https://www.github.com/NeemoDab)
